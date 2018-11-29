@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
         padding: '0',
       }}
     > */}
-      <Image imageLocation="../images/table.jpg"></Image>
+      <Image imageLocation="../images/table2.jpg"></Image>
       {/* <div style={{background: 'black', height: 300, zIndex:3}}/> */}
       <div style={{
         display:"flex",

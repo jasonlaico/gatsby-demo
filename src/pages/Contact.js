@@ -6,11 +6,11 @@ import Layout from '../components/layout'
 const Contact = () => (
   <Layout>
     <h1> Drop me a line</h1>
-    <h2>jasongatsby@gmail.com</h2>
-    <input type="text" placeholder="Your email"></input>
-    <input type="text" placeholder="Say hello"></input>
+    <h2>JasonGatsby@gmail.com</h2>
+    <input type="text" placeholder="Your email" style = {{  width: 400}}></input>
+    <input type="text" placeholder="Say hello" style = {{height:300, width: 400}}></input>
 
-    <button className= "button"> Send</button>
+    <button className= "button" style = {{  width: 400}}> Send</button>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
