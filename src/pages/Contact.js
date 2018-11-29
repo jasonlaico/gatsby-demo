@@ -10,7 +10,7 @@ const Contact = () => (
     <input type="text" placeholder="Your email"></input>
     <input type="text" placeholder="Say hello"></input>
 
-    <button> Send</button>
+    <button className= "button"> Send</button>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )

@@ -7,11 +7,11 @@ import Layout from '../components/layout'
 
 const Experience = () => (
   <Layout>
-    <h1>Take a look at my precious projects</h1>
+    <h1>Take a look at my previous projects</h1>
     <img src={portfolioconnect} className = "logos" id="portfolio" alt=""></img>
-    <h3 className = "descrips"> ConnectUS is a website used to connect new and old devices in your home seamlessly</h3>
+    <h3 className = "descrips"> ConnectUS is a website used to connect new and old devices in your home seamlessly.</h3>
     <img src={portfoliocytexone} className = "logos" id="portfolio" alt=""></img>
-    <h3 className = "descrips"> Cytexone is a tool used to develop websites that focus on tech</h3>
+    <h3 className = "descrips"> Cytexone is a tool used to develop websites that focus on tech.  It uses Node, React, and Express.</h3>
 
     <img src={portfoliocheckout} className = "logos" id="portfolio" alt=""></img>
     <h3 className = "descrips"> Payfriend is an app used to process payments and estimates in seconds </h3>
