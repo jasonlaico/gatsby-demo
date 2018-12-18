@@ -1,18 +1,17 @@
 import React from 'react'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 import Tech from '../components/Tech'
 import Layout from '../components/layout'
-import body from '../images/body.png';
+// import body from '../images/body.png';
+import face from '../images/face.jpg';
 const IndexPage = () => (
   <Layout>
-    <h1>Jason Gatsby</h1>
-    <h4>Developer. Philanthropist. Captain America.</h4>
-    {/* <p>Jason and Ben are cool.</p> */}
-    <div style={{ maxWidth: '2000px', height: "30%", marginBottom: '1.45rem', border: "1px solid black" }}>
-      <img src={body} alt=''/>
+    <h1>Jason Laico</h1>
+    <h4>Software engineer looking for new ideas</h4>
+    <div style={{ maxWidth: '500px', height: "auto",   border: "1px solid black",   }}>
+      <img src={face} alt=''/>
  
     </div>
-    {/* <Link to="/page-2/">Go to page 2</Link> */}
     <Tech> </Tech>
 
   </Layout>
